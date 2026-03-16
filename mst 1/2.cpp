@@ -13,6 +13,8 @@ int maxProd(vector<string> &words)
         }
     }
 
+
+
     int ans = 0;
     for (int i = 0; i < n; i++)
     {
@@ -30,6 +32,6 @@ int maxProd(vector<string> &words)
 int main()
 {
     vector<string> words = {"abcw", "baz", "foo", "bar", "xtfn", "abcdef"};
-    cout << maxProd(words) << endl;
+    cout << maxProd(words);
     return 0;
 }
